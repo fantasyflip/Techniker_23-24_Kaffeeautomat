@@ -8,6 +8,7 @@ int main()
     if(!milk && !sugar){
         printf("Kaffee so schwarz wie mein Humor\n");
     } else if(milk && !sugar){
+    } else if(milk && sugar){
         printf("Kaffee mit Milch und Zucker\n");
     } else if(!milk && sugar){
         printf("Kaffee mit Zucker ohne Milch\n");
